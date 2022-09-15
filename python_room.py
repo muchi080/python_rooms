@@ -43,7 +43,7 @@ def job():
     #LINE自動送信
     message = f'\n{time_t}\n{counter_t}\n{rooms_t}\n https://hotel-victoriacourt.com/vicy/vacancy/'
     def send_line_notify(message):
-        # コピーしたトークンを貼り付けてください
+        # コピーしたトークン
         line_notify_token = '9FYWyVjpJeFmSLMc0GVkd5H0XW7Y9oTjtsKMiS3z2Ri'
         line_notify_api = 'https://notify-api.line.me/api/notify'
         headers = {'Authorization': f'Bearer {line_notify_token}'}
